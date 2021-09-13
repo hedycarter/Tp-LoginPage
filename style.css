@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+.box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+  	height: 100vh;
+}
+
+.Formulaire {
+  	min-width: 250px;
+  	max-width: 370px;
+	border-radius: 24px;
+	padding: 15px;
+	background-color:rgba(250, 209, 133, 0.966);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Formulaire h1 {
+	text-align: center;
+	font-size: 2.5rem;
+	margin-top: 35px;
+	color: rgb(19, 17, 17);
+}
+
+
+.Formulaire input[type = "password"] {
+	margin-top: 10px;
+}
+input {
+  outline: none;
+ }
+
+.Formulaire input[type = "submit"] {
+	background-color:  #E0E0E0;
+	background-image: linear-gradient(19deg, #5a80fc 0%, #9bfc6e 100%);
+	width: 100%;
+	color: white;
+  	border: none;
+	margin-top: 12px;
+  	cursor: pointer;
+	padding: 5px;
+  	font-family: 'Raleway', sans-seriff;
+  	font-size: 1.3rem;
+	font-weight: bold;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+
+.Formulaire input[type = "reset"] {
+	background-color:  #E0E0E0;
+	background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+	width: 100%;
+	color: white;
+  	border: none;
+	margin-top: 12px;
+  	cursor: pointer;
+	padding: 5px;
+  	font-family: 'Raleway', sans-seriff;
+  	font-size: 1.3rem;
+	font-weight: bold;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.Formulaire input[type = "submit"]:hover {
+	opacity: 0.8;
+}
+.Formulaire input[type = "reset"]:hover {
+	opacity: 0.8;
+}
+.Formulaire input[type = "email"]:focus, .Formulaire input[type = "password"]:focus {
+ 	border: 2px rgb(253, 247, 247) solid;
+ }
+.Formulaire input[type = "email"], .Formulaire input[type = "password"] {
+	width: 100%;
+	border: none;
+	border-radius: 24px;
+  	font-size: 1rem;
+  	font-family: 'Raleway', sans-seriff;
+	background-color: white;
+	padding: 15px;
+}
+
+.Formulaire input[type ="email"]:valid{
+	background-image: linear-gradient(19deg, #4dfd21 0%, #adffcc 100%);
+}
+
+.Formulaire input[type ="password"]:valid{
+	background-image: linear-gradient(19deg, #4dfd21 0%, #adffcc 100%);
+}
