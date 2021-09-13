@@ -14,7 +14,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: white;
+	background: linear-gradient(orange,white);
   	height: 100vh;
 }
 
@@ -23,7 +23,8 @@ body {
   	max-width: 370px;
 	border-radius: 24px;
 	padding: 15px;
-	background-color:rgba(250, 209, 133, 0.966);
+	background-color: rgb(68, 68, 250);
+	background-image: linear-gradient(19deg, #ff4de1 0%, #ddfc6e 100%);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .Formulaire h1 {
@@ -43,7 +44,7 @@ input {
 
 .Formulaire input[type = "submit"] {
 	background-color:  #E0E0E0;
-	background-image: linear-gradient(19deg, #5a80fc 0%, #9bfc6e 100%);
+	background-image: linear-gradient(19deg, #0ee98e 0%, #8d6efc 100%);
 	width: 100%;
 	color: white;
   	border: none;
@@ -59,7 +60,7 @@ input {
 
 .Formulaire input[type = "reset"] {
 	background-color:  #E0E0E0;
-	background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+	background-image: linear-gradient(#0ee98e 0%, #8d6efc 100%);
 	width: 100%;
 	color: white;
   	border: none;
